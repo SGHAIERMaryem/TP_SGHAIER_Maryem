@@ -5,4 +5,9 @@ def somme(L):
 	return s
 
 my_list=[1,5,7]
-print('la somme est=',sum(my_list))
+if my_list:
+	print('la somme est=',sum(my_list))
+	print('le max est=',max(my_list))
+	print('le min est=',miny(my_list))
+else:
+	print('liste vide')
